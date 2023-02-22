@@ -37,7 +37,6 @@ body{
     padding-right: 3em;
     margin-left: auto;
     width: 30%;
-    position: sticky;
 }
 
 .banner img {
@@ -130,7 +129,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+
 }
 
 .review-article img {
@@ -165,8 +164,8 @@ body{
 
 }
 
-.lateral-bar img {
-    padding: 0; 
+.lateral-bar figure {
+    margin: 0;
 }
 
 .lateral-bar h3 {
