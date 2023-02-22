@@ -14,9 +14,8 @@ body{
     align-items: center;
 }
 
-.header_bar a {
-    text-decoration: none;
-}
+
+
 
 .header_bar {
     display: flex;
@@ -73,23 +72,29 @@ body{
     color: #F14764;
 }
 
+.header_bar > a{
+    text-decoration: none !important;
+}
+
 .header_bar a {
     color: #000000;
-
 }
+
+
 
 .header_bar a:hover {
     color: #F2526E;
 }
 
-main {
+
+.index-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-main h2{
+.index-main h2{
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
@@ -100,7 +105,7 @@ main h2{
     color: #F26457;
 }
 
-main p {
+.index-main p {
     font-family: 'Roboto Condensed';
     padding-left: 5em;
     padding-right: 5em;
@@ -113,11 +118,11 @@ main p {
     color: #000000;
 }
 
-main a {
+.index-main a {
     color: #000000;
 }
 
-main a:hover {
+.index-main a:hover {
     color: #000000;
     text-decoration: none;
 }
