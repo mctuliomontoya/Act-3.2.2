@@ -135,9 +135,10 @@ body{
 .review-article img {
     width: 5em;
     height: 5em;
+    margin: 1em;
 }
 
-.reviewer {
+.reviewer { 
     display: flex;
     justify-content: space-between;
     align-items: center;
