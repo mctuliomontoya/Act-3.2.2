@@ -8,6 +8,16 @@ body{
     padding: 0;
 }
 
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_bar a {
+    text-decoration: none;
+}
+
 .header_bar {
     display: flex;
     align-items: center;
@@ -72,14 +82,14 @@ body{
     color: #F2526E;
 }
 
-.article-block {
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.article-block h2{
+main h2{
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 700;
@@ -90,7 +100,7 @@ body{
     color: #F26457;
 }
 
-.article-block p {
+main p {
     font-family: 'Roboto Condensed';
     padding-left: 5em;
     padding-right: 5em;
@@ -103,11 +113,11 @@ body{
     color: #000000;
 }
 
-.article-block a {
+main a {
     color: #000000;
 }
 
-.article-block a:hover {
+main a:hover {
     color: #000000;
     text-decoration: none;
 }
