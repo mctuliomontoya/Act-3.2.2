@@ -210,6 +210,12 @@ footer {
 
 }
 
+footer p {
+    padding-left: 2.5em;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
 footer h3 {
     line-height: 2em;
     padding-top: 0.5em;

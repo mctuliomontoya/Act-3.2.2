@@ -5,14 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Blog</title>
+        <link rel="stylesheet" href="../styles/blogstyles.css">
     </head>
     <body>
         <header>
-            <img scr="#" alt = Logo>
-            <h3>My Company</h3>
+            <div class="logo">
+                <img src="../images/logo.png" alt = "My Company Logo">
+                <h3>My Company</h3>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="careers.html">Careers</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="contactUs.html">Contact Us</a></li>
@@ -22,11 +25,13 @@
         <main>
             <h4><strong>Blog</strong></h4>
             <article>
-                <h2>Showcase is launching in Slovenia</h2>
-                <time datetime="2022-12-8">Dec 08, 2022</time>
-                <p><strong>Joski Mrndze</strong></p>
-                <p><em>Regional Director, Adriatics</em></p>
-                <img src="#">
+                <div class="article-header">
+                    <h2>Showcase is launching in Slovenia</h2>
+                    <time datetime="2022-12-8">Dec 08, 2022</time>
+                    <p><strong>Josko Mrndze</strong></p>
+                    <p><em>Regional Director, Adriatics</em></p>
+                </div>
+                <img src="../images/blog1.jpg" alt="Showcase is launching in Slovenia">
                 <p>Journalists and news publishers play a key role in helping us understand important events 
                 as they unfold and at Google we’re dedicated to supporting the reporters and publishers 
                 who work tirelessly to deliver us news.</p>
@@ -49,11 +54,13 @@
             </article>
             <hr>
             <article>
-                <h2>News Showcase is launching in France</h2>
-                <time datetime="2022-1-3">Jan 03, 2022</time>
-                <p><strong>Manuel Francois</strong></p>
-                <p><em>Assistant Director, Paris</em></p>
-                <img src="#">
+                <div class="article-header">
+                    <h2>News Showcase is launching in France</h2>
+                    <time datetime="2022-1-3">Jan 03, 2022</time>
+                    <p><strong>Manuel Francois</strong></p>
+                    <p><em>Assistant Director, Paris</em></p>
+                    <img src="../images/blog2.jpg">
+                </div>
                 <p>Over the past 20 years, we’ve collaborated closely with journalists from around the world to support
                 a sustainable, independent and diverse news industry.</p>
                 <p>Building on our partnership with French publishers, today we're announcing the launch of Google News
@@ -74,7 +81,7 @@
             </article>
         </main>
         <footer>
-            <p>@ Copyright My Company 2023</p>
+            <h3>@ Copyright My Company 2023</h3>
         </footer>
     </body>
 </html>
