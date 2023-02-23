@@ -151,14 +151,22 @@ body{
     width: 5em;
     height: 5em;
     margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .reviewer { 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1em;
+    margin: 0%;
 }
+
+
+.reviewer-text h4 {
+    margin: 10px
+}
+
 
 .reviewer div h4 {
     font-family: 'Roboto';
@@ -171,6 +179,8 @@ body{
 }
 
 .lateral-bar {
+    font-family: 'Roboto';
+    font-style: normal;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
